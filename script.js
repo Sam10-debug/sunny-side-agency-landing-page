@@ -46,3 +46,8 @@ textwrap1.addEventListener("click",func1)
 textwrap2.addEventListener("click",func2)
 textwrap3.addEventListener("click",func3)
 textwrap4.addEventListener("click",func4)
+// hamburger.addEventListener("blur",(e)=>{
+//     if (e.relatedTarget !== nobody){
+//         nobody.classList.remove("active")
+//     }
+// })
