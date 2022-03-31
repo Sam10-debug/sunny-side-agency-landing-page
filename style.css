@@ -197,7 +197,7 @@ h6 {
   display: flex;
   justify-content: center;
   margin: 60px 80px;
-  gap: 3.5rem;
+  gap: 4.5rem;
 }
 .socials svg:hover path {
   fill: cyan;
@@ -231,7 +231,7 @@ a {
 .nobody.active {
   /* display: flex; */
   margin-left: 100px;
-  width: 330px;
+  width: 80%;
   max-height: 300px;
   overflow: visible;
 
