@@ -84,7 +84,7 @@ h2 {
   display: flex;
   background-color: red;
   margin-top: -10px;
-  margin-left: 80px;
+  margin-left: 95px;
   margin-right: 10px;
   background-color: yellow;
   border-radius: 0.2rem;
@@ -225,15 +225,16 @@ a {
   max-height: 0;
   overflow: hidden;
   /* display: none; */
-  left: 10%;
-  top: 20%;
+  left: -20%;
+  top: 10%;
 }
 .nobody.active {
   /* display: flex; */
   margin-left: 100px;
-  width: 200px;
-  max-height: 200px;
+  width: 330px;
+  max-height: 300px;
   overflow: visible;
+
 }
 .arrow.active {
   display: none;
@@ -271,7 +272,7 @@ a {
   text-transform: uppercase;
   width: fit-content;
   padding: 0px 10px;
-  margin-left: 60px;
+  margin-left: 39%;
 }
 #textwrap2.active {
   background-color: yellow;
@@ -280,7 +281,7 @@ a {
   font-weight: bold;
   width: fit-content;
   padding: 0px 10px;
-  margin-left: 60px;
+  margin-left: 36%;
 }
 #textwrap3.active {
   background-color: yellow;
@@ -289,7 +290,7 @@ a {
   font-weight: bold;
   width: fit-content;
   padding: 0px 10px;
-  margin-left: 60px;
+  margin-left: 35%;
 }
 #textwrap4.active {
   background-color: yellow;
@@ -298,8 +299,17 @@ a {
   font-weight: bold;
   width: fit-content;
   padding: 0px 10px;
-  margin-left: 60px;
+  margin-left: 37%;
 }
 a{
   color: blue;
 }
+.about>p:hover{
+text-decoration: underline;
+cursor: pointer;
+color: white;
+}
+/* css blur
+template tag
+commit changes to project
+check Faruq's repo */
